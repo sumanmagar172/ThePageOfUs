@@ -1,0 +1,63 @@
+
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333; 
+}
+
+
+
+@font-face {
+  font-family: 'ThePageOfUsFont';
+  src: url('../assets/fonts/AnnieUseYourTelescope-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AnkorFont';
+  src: url('../assets/fonts/Angkor-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AveriaSansLibreFont';
+  src: url('../assets/fonts/AveriaSansLibre-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AnekOdiaFont';
+  src: url('../assets/fonts/AnekOdia-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'BalooFont';
+  src: url('../assets/fonts/Baloo2-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* You might want to define some color variables here */
+:root {
+  --primary-brown: #6C584A;
+  --dark-brown: #6d4c41;
+  --light-brown: #a1887f;
+  --text-color: #333;
+  --background-color: #f5f5f5;
+}
