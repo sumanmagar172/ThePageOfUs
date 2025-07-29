@@ -4,7 +4,7 @@ import LoginPages from '../pages/LoginPages';
 
 const AppRoute = () => {
   return (
-    <Router>
+    <Router basename="/ThePageOfUs">
         <Routes>
             <Route path='/' element={<LoginPages/>}/>
             {/* you can add here more rotes */}
